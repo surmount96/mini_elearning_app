@@ -1,0 +1,25 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: circular;
+    src: url('/font/Circular/lineto-circular-pro-book.ttf');
+    // url('/font/Circular/lineto-circular-pro-book.ttf');
+    // url('/font/Circular/CircularStd-Bold.otf')
+    // url('/font/Circular/CircularStd-Book.otf');
+}
+
+html{
+    font-family: 'Poppins', sans-serif;
+}
+
+.rotate{
+    transform:rotate(-90deg);
+    margin-right: -34px;
+}
